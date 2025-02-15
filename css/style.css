@@ -1,0 +1,117 @@
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(83, 200, 220);
+}
+
+body {
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    position: fixed;
+    
+}
+.mensaje{
+    width: 200px;
+    height: 150px;
+    position: fixed;
+    left: 200px;
+    border-radius: 1vh;
+    
+}
+/*cambio nombre*/
+.papaNoelOff {
+    width: 500px;
+    height: 550px;
+    position: fixed;
+    right: 150px;
+    bottom: 50px;
+    align-items: end;
+    background-image: url('../img/papaNoel.png');
+}
+
+.papaNoelOff.on {
+    background-image: url('../img/papaNoel.gif');
+}
+.papaNoelP {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1vh;
+    position: fixed;
+    color: rgb(255, 79, 40); 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    left: 150px;
+    bottom: 10rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.papaNoelO {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1vh;
+    position: fixed;
+    color: rgb(255, 79, 40); 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    left: 300px;
+    bottom: 10rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*cambio nombre*/
+.cuentaRegresiva {
+    width: 200px;
+    height: 150px;
+    position: fixed;
+    left: 400px;
+    color: white;
+
+}
+
+.diasFaltantes {
+    width: 140px;
+    height: 140px;
+    position: fixed;
+    left: 100px;
+    bottom: 200px;
+    color: black;
+    border-radius: 1rem;
+}
+.horasFaltantes {
+    width: 140px;
+    height: 140px;
+    position: fixed;
+    left: 75px;
+    bottom: 200px;
+    color: black;
+}
+
+.minutosFaltantes {
+    width: 220px;
+    height: 220px;
+    position: fixed;
+    left: 55px;
+    bottom: 200px;
+    color: black;
+}
+
+.segundosFaltantes{
+    width: 250px;
+    height: 250px;
+    position: fixed;
+    left: 35px;
+    bottom: 200px;
+    color: black;
+}
+
+/*centrar agujas del reloj*/
+.diasFaltantes, .horasFaltantes, .minutosFaltantes, .segundosFaltantes {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    border-radius: 50vh;
+}
